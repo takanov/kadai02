@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ここから -->
+    <main class="contents">
+        <h1 class="title">じゃんけんゲーム</h1>
+        <div class="start_btn">
+            <button id="start">スタート</button>
+        </div>
+
+        <div id="play__junken">
+            <p id="kakegoe" class="kakegoe">じゃんけん...</p>
+            <div class="play_contents" id="play_contents">
+                <div class="junken_lists" id="j-lits">
+                    <button id="gu__btn"><img src="img/janken_gu.png" alt="ぐー" width="300px"></button>
+                    <button id="choki__btn"><img src="img/janken_choki.png" alt="ちょき" width="300px"></button>
+                    <button id="par__btn"><img src="img/janken_pa.png" alt="ぱー" width="300px"></button>
+                    <div id="me"></div>
+                </div>
+                <div>
+                    <img src="" width="300" id="pc_hands">
+                    <div id="com"></div>
+                </div>
+            </div>
+            <div id="judgment" class="judment"></div>
+        </div>
+    </main>
+    <!-- ここからまで -->
+
+    <!-- ここからjavascript -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
